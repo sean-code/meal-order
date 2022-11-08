@@ -1,4 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.slideshow{
+    overflow: hidden;
+    margin-top: 3%;
+
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide {
+    height: 80vh;
+    /* animation:animate 20s infinite; */
+    /* animation: slideToLeft 10s ease infinite */
+    animation: animate 10s infinite;
+}
+
+.carousel .slide img{
+    max-height: 100%;
+    width: auto;
+    size: 10%;
+}
+
+.image{
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+

@@ -4,7 +4,6 @@
 // function Navbar(){
 //     return(
 //         <>
-//             <section className="nav-bar">
 //                 <div className="container">
 //                     <div className="logo">
 //                         <img src="https://i.postimg.cc/zDnkNdBV/logo.png" alt="WowFood" className="resturant-logo" />
