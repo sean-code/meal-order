@@ -1,27 +1,30 @@
-// import { NavLink } from 'react-router-dom';
-// import './navbar.css'
+import './navbar.css'
 
-// function Navbar(){
-//     return(
-//         <>
-//                 <div className="container">
-//                     <div className="logo">
-//                         <img src="https://i.postimg.cc/zDnkNdBV/logo.png" alt="WowFood" className="resturant-logo" />
-//                     </div>
-//                     <div className="menu text-right">
-//                         <ul>
-//                             <li>
-//                                 <NavLink>
-//                                     Home
-//                                 </NavLink>
-//                             </li>
-//                         </ul>
-//                     </div>
-//                     <div className="clearfix"></div>
-//                 </div>
-//             </section> 
-//         </>
-//     )
-// }
+function Navbar(){
+    return(
+        <>
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYiRHPxIgs-g_ZzEtunaQ_VjnGMcj5KuyvNDBVogJVnw&s" alt="IndiaMeals.in" />
+                        <h2>Meal Order</h2>
+                </div>
+                <ul>
+                    <li className="item">
+                        <a href="#home.com">Home</a>
+                    </li>
+                    <li className="item">
+                        <a href="#services.com">Services</a>
+                    </li>
+                    <li className="item">
+                        <a href="#client-section.com">About Us</a>
+                    </li>
+                    <li className="item">
+                        <a href="#contact-box.com">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </>
+    )
+}
 
-// export default Navbar;
+export default Navbar;

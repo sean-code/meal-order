@@ -5,7 +5,6 @@ import {Carousel} from 'react-responsive-carousel';
 function Carousels(){
     return(
         <div className='slideshow'>
-            <h1>Hello</h1>
             <Carousel infiniteloop autoPlay>
                 <div className='image'>
                     <img src='https://images.unsplash.com/photo-1655844356175-76b475c178af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Vpc2luZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt='img1' />
