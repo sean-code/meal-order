@@ -1,4 +1,4 @@
-import './navbar.css'
+import './navbar.css';
 
 function Navbar(){
     return(
@@ -13,13 +13,13 @@ function Navbar(){
                         <a href="#home.com">Home</a>
                     </li>
                     <li className="item">
-                        <a href="#services.com">Services</a>
+                        <a href="#services.com">Restaurants</a>
                     </li>
                     <li className="item">
                         <a href="#client-section.com">About Us</a>
                     </li>
                     <li className="item">
-                        <a href="#contact-box.com">Contact Us</a>
+                        <a href="#contact-box.com"></a>
                     </li>
                 </ul>
             </nav>

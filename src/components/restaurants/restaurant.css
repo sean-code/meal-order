@@ -1,3 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Services */
+
+#services{
+    margin-top: 100px;
+}
+
+#services h1{
+    color: #fff;
+    text-align: center;
+}
+
+.cards{
+    width: 300px;
+	max-width: 30%;
+	background-color: orange;
+    margin-right: 10px;
+    margin-left: 30px;
+	text-align: center;
+	justify-content: space-between;
+	display: block;
+	height: 250px;
+	padding-right: 30px;
+    padding-left: 20px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+    display: inline-block;
+}
+.cards:hover {
+	box-shadow: orange 6px 2px 16px 0px;
+	cursor: pointer;
+}
+
+.dentName h3{
+	margin-bottom: 50px;
+}
+
+
+.dentName{
+	height: 350px;
+	width: 300px;
+	max-width: 70%;
+	background-color: #FAFAFA;
+    margin-right: 10px;
+    margin-left: 30px;
+	text-align: center;
+	justify-content: space-between;
+	display: block;
+	padding-right: 30px;
+    padding-left: 0px;
+	padding-top: 25px;
+    display: inline-block;
+	border-radius: 10px;
+	box-shadow:rgb(174, 177, 145) 0px 0px 5px;
+	margin-top: -3500px;
+
+}
+
+.jscards img{
+	border-radius: 10px;
+	margin-left: -450px;
+}
 
 .carda{
 	margin-left: 60px;
@@ -5,32 +71,28 @@
 
 .div1{
 	align-items: center;
-	margin-left: 160px;
+	margin-left: 240px;
 	margin-bottom: 60px;
-
 }
 
 .div2{
 	align-items: center;
-	margin-left: 200px;
-
+	margin-left: 160px;
 }
-
 .cardc{
-	border-radius: 50px;
+	border-radius: 20px;
 }
 
 
 /* FRONT AND BACK CARDS */
 .innerCard11{
-
 	transition: transform 0.6s;
 	transform-style: preserve-3d;
 }
 .front11{
 	text-align: center;
 	border-radius: 10px;
-	padding-left: 50px;
+	padding: 2px;
 }
 .front11 img{
  align-items: center;
@@ -42,15 +104,16 @@ font-weight: 500;
 }
 .back11 {
 display: flex;
-/* height: 200px; */
+height: 200px;
 flex-direction: column;
-/* background-color: lightseagreen; */
+background-color: rgb(99, 17, 6);
 justify-content: space-around;
 align-items: center;
 text-align: center;
 border-radius: 10px;
-color: rgb(16, 16, 16);
-font-weight: 400;
+color: #fff;
+font-weight: 800;
+font-size: larger;
 transform: rotateY(180deg);
 }
 .front11, .back11{
@@ -63,28 +126,3 @@ transform: rotateY(180deg);
 transform: rotateY(180deg);
 }
 
-#review-list{
-	background-color: whitesmoke;
-	padding-right: -70px;
-}
-#review-list li {
-	border-radius: 5px;
-	margin-right: -100px;
-	margin-bottom: 10px;
-	list-style: square;
-  }
-
-  .more{
-	margin-left: -30px;
-  }
-#doc-more{
-	margin-left: -300px;
-}
-.bind{
-	align-items: left;
-	margin-left:-500px;
-	/* margin-top: -150px; */
-}
-.adjust{
-	margin-top: -1300px;
-}

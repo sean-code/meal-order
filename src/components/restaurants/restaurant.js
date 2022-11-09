@@ -4,82 +4,104 @@ function Restaurants(){
     return(
         <>
         <div id="services">
-            <h1 className="titleh1" id="services"><strong>SERVICES</strong></h1><br />
+            <h1 className="titleh1" id="services"><strong>RESTAURANTS</strong></h1><br />
 
         <div className="div1 card11">
           <div className="cards carda cardc innerCard11">
             <div className="front11">
                 <div className="card-img">
-                    <img  src="https://mintdentalcentre.co.ke/wp-content/uploads/2020/03/icon03-free-img.png" alt="tooth1" />
+                    <img  src="https://media.istockphoto.com/id/1331280439/photo/smiling-entrepreneur-holding-a-digital-tablet-in-her-cafe.jpg?b=1&s=170667a&w=0&k=20&c=VyHg4A_c9BJJL0p1C0xRnMODcsRSLMY3nvxiUHY_MVk=" alt="tooth1" />
                 </div>
                 <div className="card-body">
-                    <h5 ><em>Root Canal</em></h5>
+                    <h5 ><em>Restaurant A</em></h5>
                 </div>
                 </div>
 
                 <div className="back11">
-                    <h2>Root canal</h2>
-                    <p>Root canal treatment is a dental procedure used to treat infection at the centre of a tooth.<br />
-                        Root canal treatment is not painful and can save a tooth that might otherwise have to be removed completely.</p>
+                    <h2>Restaurant A</h2>
+                    <p>We are a renowned restaurant and home for the best Somali and African Continental cuisines</p>
                 </div>
             </div>
 
             <div className="cards cardc innerCard11 ">
                 <div className="front11">
                 <div className="card-img">
-                    <img src="https://mintdentalcentre.co.ke/wp-content/uploads/2020/03/icon02-free-img.png" alt="tooth1" />
+                    <img src="https://media.istockphoto.com/id/1434359678/photo/a-chef-calculating-the-kitchen-expenses.jpg?b=1&s=170667a&w=0&k=20&c=_2UpbPSIvW-0w38DGLDPw8_FAenBFJhA6JcWPI91J1k=" alt="tooth1" />
                 </div>
                 <div className="card-body">
-                    <h5><em>Dentures</em></h5>
+                    <h5><em>Restaurant B</em></h5>
                 </div>
             </div>
             <div className="back11">
-              <h2>Dentures</h2>
-              <p>A denture is a removable replacement for missing teeth and surrounding tissues.
-                There are two types. Complete dentures are used when all the teeth are missing,<br />
-                while partial dentures are used when some natural teeth remain.</p>
+              <h2>Restaurant B</h2>
+              <p>The ideal venue for breakfast, brunch, lunch and dinner with friends and family, corporate meetings, birthday parties</p>
             </div>
           </div>
 
             <div class="cards cardc innerCard11 ">
-
                 <div className="front11">
                     <div className="card-img">
-                        <img src="https://mintdentalcentre.co.ke/wp-content/uploads/2020/03/icon04-free-img.png" alt="tooth1" />
+                        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fFJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="tooth1" />
                     </div>
                     <div className="card-body">
-                        <h5><em>Tooth Whitening</em></h5>
+                        <h5><em>Restaurant C</em></h5>
                     </div>
                 </div>
 
                 <div className="back11">
-                    <h2>Tooth Whitening</h2>
-                    <p>Tooth whitening is any process that lightens the color of a tooth.<br />
-                    Whitening may be accomplished by physical removal of the stain or a chemical reaction to lighten the tooth color.</p>
+                    <h2>Restaurant C</h2>
+                    <p>A fun spot serving homey Kenyan and African cuisine. The decor is hip and funky: bright yellow sofas adorned with colorful kanga cushions, chunky metal lights, and the kitchen set within a shipping container </p>
                 </div>
             </div>
 
-            <div class="div2 card11">
-
-                <div class="cards cardc innerCard11">
-
-                    <div class="front11">
-                        <div class="card-img">
-                            <img src="https://mintdentalcentre.co.ke/wp-content/uploads/2020/03/icon06-free-img.png" alt="tooth1" />
+            <div className="div2 card11">
+                <div className="cards cardc innerCard11">
+                    <div className="front11">
+                        <div className="card-img">
+                            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8UmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="tooth1" />
                         </div>
-                        <div class="card-body">
-                            <h5><em>Braces Installation</em></h5>
+                        <div className="card-body">
+                            <h5><em>Restaurant D</em></h5>
                         </div>
                     </div>
 
-                    <div class="back11">
-                        <h2>Braces Installation</h2>
+                    <div className="back11">
+                        <h2>Restaurant D</h2>
 
-                        <p>This is the process of attaching orthodontic or
-                        dental braces to the teeth through molding, fitting, and threading of metal wires and elastic bands.
-                        </p>
+                        <p>The elegant restaurant, located in a converted house, has an outdoor bar and patio seating area as well as a large garden.</p>
                     </div>
                 </div>
+
+                <div class="cards cardc innerCard11 ">
+                <div className="front11">
+                    <div className="card-img">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8UmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="tooth1" />
+                    </div>
+                    <div className="card-body">
+                        <h5><em>Restaurant E</em></h5>
+                    </div>
+                </div>
+
+                <div className="back11">
+                    <h2>Restaurant E</h2>
+                    <p>Best vegetarian restaurant, serves outrageously tasty dishes from across the Indian subcontinent.</p>
+                </div>
+            </div>
+
+            <div class="cards cardc innerCard11 ">
+                <div className="front11">
+                    <div className="card-img">
+                        <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fFJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="tooth1" />
+                    </div>
+                    <div className="card-body">
+                        <h5><em>Restaurant F</em></h5>
+                    </div>
+                </div>
+                <div className="back11">
+                    <h2>Restaurant F</h2>
+                    <p>Offering he menu offers a wide variety to tempt all kinds of palates.</p>
+                </div>
+            </div>    
             </div>
         </div>
     </div>
