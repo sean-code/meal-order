@@ -1,11 +1,7 @@
-import './menu.css'
+import "./menu.css";
 
-function Menu(){
-    return(
-        <div>
-            
-        </div>
-    )
+function Menu() {
+  return <div></div>;
 }
 
 export default Menu;
