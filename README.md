@@ -1,4 +1,5 @@
 # Meal-Order 
+--The meal order app 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -12,6 +13,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Description
 This app allows customers to order meals directly from the app. The orders can be delivered to restaurants. On the other end, restaurants can update their meals, read client orders, update, and delete. The name, origin, price, and image of a meal are all used to describe it. An order is created with the click of a button, which managers can access on the backend.
 
+### Landing page
+
+
+
 ## Technologies
 * HTML 
 * CSS
@@ -21,11 +26,12 @@ This app allows customers to order meals directly from the app. The orders can b
 * SQL
 
 ## Setup Instructions
-Open the Terminal command line: [CTRL+ALT+T]
+* Open the Terminal command line: [CTRL+ALT+T]
+*Clone the repository: [git clone https://]
+* Change Directory:[cd ]
+* atom . (If Atom is your preferred text editor)
+* code . (If Visual Studio Code is your preferred text editor)
 
-Clone the repository: [git clone https://]
-
-Change Directory:[cd ]
 
 
 
