@@ -1,27 +1,25 @@
 import React from 'react';
 import './navbar.css';
+import {NavLink} from 'react-router-dom';
 
 function Navbar(){
     return(
         <>
-            <nav id="navbar">
-                <div id="logo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYiRHPxIgs-g_ZzEtunaQ_VjnGMcj5KuyvNDBVogJVnw&s" alt="IndiaMeals.in" />
-                        <h2>Meal Order</h2>
-                </div>
-                <ul>
-                    <li className="item">
-                        <a href="/" className='site-title'>Home</a>
-                    </li>
-                    <li className="item">
-                        <a href="/order">Order</a>
-                    </li>
-                    <li className="item">
-                        <a href="/about">About</a>
-                    </li>
-                </ul>
-            </nav>
-        </>
+    <header className="navbar">
+      <span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYiRHPxIgs-g_ZzEtunaQ_VjnGMcj5KuyvNDBVogJVnw&s" alt="IndiaMeals.in" />
+            <i><b>Meal Order</b></i>
+        </span>
+
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/order">Order</NavLink>
+      <NavLink to="/search">Search</NavLink>
+      <NavLink to="/about">About</NavLink>
+        <button>
+            <NavLink to="/login">Login</NavLink>
+        </button>
+    </header>
+    </>
     )
 }
 

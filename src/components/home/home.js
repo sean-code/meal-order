@@ -60,6 +60,10 @@ function Home(){
                 </div>
             </div>
         </div>
+
+
+        {/* MEAL MENU */}
+
         <div id="services">
             <h1 className="titleh1" id="services"><strong>RESTAURANTS</strong></h1><br />
 
