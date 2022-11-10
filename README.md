@@ -3,11 +3,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Contributors
-* Kristine Nyaga
-* Dyes Junior
-* Dennis Micheni
-* Valeria Bosibori
-* John Nganga
+* [Kristine Nyaga](https://github.com/kristinenyaga)
+* [Dyes Junior](https://github.com/Dx901)
+* [Dennis Micheni] (https://github.com/D-Micheni)
+* [Valeria Bosibori](https://github.com/codingvaleria)
+* [John Nganga](https://github.com/sean-code)
 
 ## Description
 This app allows customers to order meals directly from the app. The orders can be delivered to restaurants. On the other end, restaurants can update their meals, read client orders, update, and delete. The name, origin, price, and image of a meal are all used to describe it. An order is created with the click of a button, which managers can access on the backend.
