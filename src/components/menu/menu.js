@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Meal from "./meal";
+import "./menu.css";
 
 function Menu() {
   const [meals, setMeals] = useState([]);
@@ -13,12 +14,12 @@ function Menu() {
   }, []);
 
   return (
-    <>
+    <main className="main-menu">
       {" "}
       {meals.map((meal) => (
         <Meal key={meal.id} meal={meal} />
       ))}{" "}
-    </>
+    </main>
   );
 }
 
