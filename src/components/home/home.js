@@ -1,3 +1,4 @@
+import Footer from '../footer/footer';
 import './home.css'
 import SliderShow from './SliderShow';
 
@@ -154,6 +155,7 @@ function Home(){
             </div>
         </div>
     </div>
+    <Footer />
     </div>
     )
 }

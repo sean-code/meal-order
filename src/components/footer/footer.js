@@ -10,8 +10,7 @@ function Footer(){
                             <h3>Meal Order</h3>
                             <p className="site-decription">
                         
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis
-                                id fames dolor.
+                                The destination to quench your yearn for yummy cravings. <br /> JUST ORDER YOUR MEALS WITH US NOW!!
                             </p>
                         <div className="social-medias flex flex-g-1">
                         <a href="#" className="social-media flex">
