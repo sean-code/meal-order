@@ -1,11 +1,22 @@
 import './menu.css'
+import React from 'react';
 
-function Menu(){
+const Scroll = (props) => {
     return(
-        <div>
-            
+        <div style={{overflowY: 'scroll', height:'70vh'}}>
+            {props.chilren}
         </div>
     )
 }
 
-export default Menu;
+
+function Menu(){
+    return(
+        <div>
+            <h3>This is supposed to show</h3>
+        </div>
+    )
+}
+
+export default Scroll;
+//export default Menu;

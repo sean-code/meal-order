@@ -1,0 +1,18 @@
+body {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.ally-hidden {
+    position: absolute;
+    left: -1000in;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0);
+}
+
