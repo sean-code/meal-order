@@ -1,0 +1,78 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+/*--------------
+    Food Menu
+--------------*/
+
+.food-menu-box {
+  align-items: center;
+  background-color: hsl(0, 19%, 100%);
+  float: right;
+}
+
+.img-food-menu {
+  width: 70%;
+}
+
+.img-order {
+  width: 80%;
+  text-align: center;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.Desc-food-menu {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-right: 150;
+}
+
+.Desc-food-menu .para-formating {
+}
+
+.order-now {
+  background-color: orange;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+}
+
+/*--------------
+  for Mobile
+--------------*/
+@media only screen and (max-width: 600px) {
+  .menu ul {
+    text-align: center;
+  }
+
+  .menu ul li {
+    position: relative;
+    left: 4rem;
+    top: 0.5rem;
+    font-size-adjust: auto;
+  }
+
+  .food-menu-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-food-menu {
+    width: 50%;
+  }
+
+  .order-now {
+    border-radius: 1rem;
+    position: relative;
+    left: 7%;
+  }
+}
