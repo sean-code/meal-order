@@ -8,18 +8,16 @@ function Meal({ meal }) {
       <div className="img-food-menu">
         <img src={image} alt="food menu Image" className="img-order" />
       </div>
+
       <div className="Desc-food-menu">
-        <h3 className="food-title">{name}</h3>
-        <p>
-          <b>{price}</b>
-        </p>
+        <span>
+          <h3 className="food-title">{name}</h3>
+          <span> {cuisine}</span>
+        </span>
+
         <p className="para-formating">
-          {cuisine}
-          <br />
-          <br />
-          <a href="" className="btn order-now">
-            Order Now
-          </a>
+          <p>Ksh: {price}</p>
+          <button className="btn order-now"> Order Now</button>
         </p>
       </div>
     </div>
