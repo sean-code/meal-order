@@ -10,10 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * John Nganga
 
 ## Description
-
-
-
-
+This app allows customers to order meals directly from the app. The orders can be delivered to restaurants. On the other end, restaurants can update their meals, read client orders, update, and delete. The name, origin, price, and image of a meal are all used to describe it. An order is created with the click of a button, which managers can access on the backend.
 
 ## Technologies
 * HTML 
