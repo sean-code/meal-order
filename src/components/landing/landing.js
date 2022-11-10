@@ -20,7 +20,7 @@ const Landing = () => {
                         </button>
             
                         <button className="btn btn-outline-success btn-md m-2" >
-                            <a href='http://localhost:3000/about'>
+                            <a href='http://localhost:3000/home'>
                                 Customer
                             </a>
                         </button>
