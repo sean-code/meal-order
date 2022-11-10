@@ -1,3 +1,4 @@
+import React from 'react';
 import './navbar.css';
 
 function Navbar(){
@@ -10,16 +11,13 @@ function Navbar(){
                 </div>
                 <ul>
                     <li className="item">
-                        <a href="#home.com">Home</a>
+                        <a href="/" className='site-title'>Home</a>
                     </li>
                     <li className="item">
-                        <a href="#services.com">Restaurants</a>
+                        <a href="/order">Order</a>
                     </li>
                     <li className="item">
-                        <a href="#client-section.com">About Us</a>
-                    </li>
-                    <li className="item">
-                        <a href="#contact-box.com"></a>
+                        <a href="/about">About</a>
                     </li>
                 </ul>
             </nav>

@@ -1,16 +1,17 @@
 import './App.css';
-import Carousels from './components/carousel/carousel';
-import Menu from './components/menu/menu';
 import Navbar from './components/navbar/navbar';
-import Restaurants from './components/restaurants/restaurant';
+import Home from './components/home/home';
+import Order from './components/order/order';
+import About from './components/about/about';
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Carousels />
-      <Menu />
-      <Restaurants />
+        <Navbar />
+        <Home />
+        <Order />
+       <About />
     </>
   );
 }
