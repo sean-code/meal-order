@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Contributors
 * [Kristine Nyaga](https://github.com/kristinenyaga)
 * [Dyes Junior](https://github.com/Dx901)
-* [Dennis Micheni] (https://github.com/D-Micheni)
+* [Dennis Micheni](https://github.com/D-Micheni)
 * [Valeria Bosibori](https://github.com/codingvaleria)
 * [John Nganga](https://github.com/sean-code)
 
