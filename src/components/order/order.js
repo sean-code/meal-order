@@ -1,15 +1,24 @@
 import './order.css';
-import MyImage from './shopping.svg';
-import Footer from '../footer/footer';
+import MyCart from './shopping.svg'
 
-export function Order (){
+ function Order ({setShow,size}){
     return(
-        <>
-            <img src ={MyImage} />
-
-            <Footer />
-        </>
-    )
-}
+        
+    <nav>
+      <div className="nav_box">
+        <span className="my_order" onClick={()=>setShow(true)}>
+          My Orders
+        </span>
+        <div className="cart" onClick={()=>setShow(false)}>
+          <span>
+            <img src={MyCart} />
+          </span>
+        </div>
+      </div>
+    </nav>
+  );
+        
+    
+};
 
 export default Order;

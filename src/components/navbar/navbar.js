@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import {NavLink} from 'react-router-dom';
+import MyImage from './shopping.svg';
 
 function Navbar(){
     return(
@@ -11,8 +12,9 @@ function Navbar(){
             <i><b>Meal Order</b></i>
         </span>
 
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/order">Order</NavLink>
+      <NavLink to="/"> </NavLink>
+      <NavLink to="/home">Home</NavLink>
+      <NavLink to="/orders">Orders<img src={MyImage}/></NavLink>
       <NavLink to="/search">Search</NavLink>
       <NavLink to="/about">About</NavLink>
         <button>
