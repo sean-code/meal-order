@@ -1,8 +1,6 @@
 # Meal-Order 
 --The meal order app 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Contributors
 * [Kristine Nyaga](https://github.com/kristinenyaga)
 * [Dyes Junior](https://github.com/Dx901)
