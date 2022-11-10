@@ -10,7 +10,7 @@ function Menu() {
     fetch(`${baseUrl}/meals`)
       .then((res) => res.json())
       .then((meals) => setMeals(meals));
-  });
+  }, []);
 
   return (
     <>
