@@ -6,47 +6,148 @@ import axios from "axios"
 import React, { useState, useEffect} from 'react';
 const url = "http://127.0.0.1:8000/meal"
 
-function Search(){
-  const[meals, setMeals] = useState([]);
- //const [searchMeal, setSearchMeal] = useState('');
 
-  const searchMeal = (e) => {
-    if (e.key==="Enter")
-    {
-      axios.get("http://127.0.0.1:8000/meal")
-      .then (res=>setMeals(res.data.meals))
-      .catch(err=>console.log(err))
-    }
-  }
 
-  //const getMealRequest = async() =>{
-  //     //const url = url;
-
-       //const response = await fetch(url);
-       //const responseJson = await response.json();
-
-  //     if (responseJson.Search){
-  //         setMeals(responseJson.Search);
-  //     }
-      
+// function Search({ filter, onSetFilter, filter2, onSetFilter2, filter3, onSetFilter3, onClearFilter }) {
+function Search() {
   
-  // useEffect(()=> {
-    //   getMealRequest();
-   //}, []);
 
-  return(
+  const [meal, setMeal] = useState([])
+
+  //const [location, setLocation] = useState([])
+  useEffect(() => {
+    fetch("http://127.0.0.1:8000/order")
+      .then((r) => r.json())
+      .then((meals) => setMeal(meals));
+      console.log(meal)
+  }, []);
+
+  function Form() {
+    function handleSubmit(e) {
+      e.preventDefault()
+      console.log('You clicked submit')
+      
+    }
+    
+  }
+  return (
+    <>
       <div className="container-fluid movie-app">
           <form className="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder="Lasagnia" aria-label="Search"/>
-      {/* value={meals} onChange= {e => setMeals(e.target.value)}/> */}
+       <input className="form-control me-2" type="search" placeholder="Lasagnia" aria-label="Search"/>
+       {/* value={meals} onChange= {e => setMeals(e.target.value)}/> */}
       
-      <button className="btn btn-outline-success" type="submit">Search</button>
-    </form>
-      </div>
+       <button className="btn btn-outline-success" type="submit">Search</button>
+     </form>
+       </div>
+       {/* <form onSubmit={handleSubmit}> */}
+        {/* <button type="submit">Find Food</button> */}
+       {/* </form> */}
+{/* <button onClick={onClearFilter}>Clear Filters</button> */}
+    </>
   )
 }
+export default Search
 
-export default Search;
+
+
+
+
+
+
+
+
+
+// function Search(){
+//   const[meals, setMeals] = useState([]);
+//  //const [searchMeal, setSearchMeal] = useState('');
+
+//   const searchMeal = (e) => {
+//     if (e.key==="Enter")
+//     {
+//       // axios.get(`http://127.0.0.1:8000/${item}`)
+//       axios.get(`${url}`)
+//       .then (res=>setMeals(res.data.meals))
+//       .catch(err=>console.log(err))
+//     }
+//   }
+//   let searchTerm = " "
+//   let meal = meals.filter((item) => {
+//     return item.name===searchTerm
+//   })
+
+ 
+      
+  
+//   // useEffect(()=> {
+//     //   getMealRequest();
+//    //}, []);
+
+//   return(
+//       <div className="container-fluid movie-app">
+//           <form className="d-flex" role="search">
+//       <input className="form-control me-2" type="search" placeholder="Lasagnia" aria-label="Search"/>
+//       {/* value={meals} onChange= {e => setMeals(e.target.value)}/> */}
+      
+//       <button className="btn btn-outline-success" type="submit">Search</button>
+//     </form>
+//       </div>
+//   )
+// }
+
+// export default Search;
+
+
+
+{/* <>
+  <select className="form-select-lg mt-3  m-5" value={filter} aria-label=".form-select-lg " onChange={(event) => onSetFilter(event.target.value == 0 ? "" : event.target.value)}>
+  <option value={0}>Filter by location</option>
+  {Object.keys(location).length > 0 && location.map((locate) => (
+    <option key={locate.id} value={locate.name}>{locate.name}</option>
+  ))}
+  </select>
+  <select className="form-select-lg mt-3  m-5" value={filter2} aria-label=".form-select-lg " onChange={(event) => onSetFilter2(event.target.value)}>
+  <option selected>Filter by rent</option>
+  <option value="10000">Less than 10000</option>
+  <option value="20000">Less than 20000</option>
+  <option value="30000">Less than 30000</option>
+</select>
+<select className="form-select-lg mt-3 m-5" value={filter3} aria-label=".form-select-lg " onChange={(event) => onSetFilter3(event.target.value)}>
+  <option selected>Filter by rooms</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+<button onClick={onClearFilter}>Clear Filters</button>
+    </>
+  )
+}
+export default Search */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const Search = (props) => {
 
@@ -85,3 +186,13 @@ export default Search;
     </form>
   </div>
 </nav> */}
+
+ //const getMealRequest = async() =>{
+  //     //const url = url;
+
+       //const response = await fetch(url);
+       //const responseJson = await response.json();
+
+  //     if (responseJson.Search){
+  //         setMeals(responseJson.Search);
+  //     }

@@ -1,9 +1,12 @@
 import './header.css'
+//import Login from "./components/login/login";
+//import Search from './components/search/search';
+
 
 function Header(){
     return(
         <div>
-            <p>They say this is not showing</p>
+            {/* <Login/> */}
         </div>
     )
 }
