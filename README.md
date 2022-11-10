@@ -3,11 +3,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Contributors
-*Kristine Nyaga
-*Dyes Junior
-*Dennis Micheni
-*Valeria Bosibori
-*John Nganga
+* Kristine Nyaga
+* Dyes Junior
+* Dennis Micheni
+* Valeria Bosibori
+* John Nganga
 
 ## Description
 
@@ -16,12 +16,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Technologies
-*HTML 
-*CSS
-*JavaScript
-*React JS
-*Ruby
-*SQL
+* HTML 
+* CSS
+* JavaScript
+* React JS
+* Ruby
+* SQL
 
 ## Setup Instructions
 Open the Terminal command line: [CTRL+ALT+T]
