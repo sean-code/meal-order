@@ -51,7 +51,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <button>{amount}</button>
             <button onClick={()=>handleMinus(item)}> - </button>
           </div>
-          <div>
+          <div className='.btn'>
             <span>Ksh:{item.price}</span>
               <button className='remove' onClick={()=>handleRemove(item.id)} >Remove</button>
               </div>

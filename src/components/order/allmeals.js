@@ -1,6 +1,7 @@
 import React, { useEffect,useState } from "react";
 import Cards from "./card";
 import "./allmeals.css";
+import Form from "../form/form"
 
 const Allmeals = ({handleClick}) => {
   const baseUrl ="http://localhost:8000";
@@ -19,7 +20,11 @@ const Allmeals = ({handleClick}) => {
       {meals.map((item) => (
         <Cards key={item.id} item={item} handleClick={handleClick} />
       ))}
+
+      
+
     </section>
+
   );
 };
 

@@ -2,6 +2,7 @@ import './App.css';
 import Allmeals from './components/order/allmeals';
 import Cart from './components/order/cart';
 import Order from './components/order/order';
+import Form from './components/form/form.js'
 import React,{useState,useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -55,7 +56,8 @@ function App() {
   return (
     <React.Fragment>
        
-		<Order size={cart.length} setShow={setShow} />
+		{/* <Order size={cart.length} setShow={setShow} /> */}
+		<Form />
 		{
 			show ? <Allmeals handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange} amount={amount} />
 		}
