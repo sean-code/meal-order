@@ -1,74 +1,62 @@
-* {
-  font-family: "Nunito", sans-serif;
-}
-
-/*--------------
-    Food Menu
---------------*/
 .main-menu {
+  width: 98%;
+  height: max-content;
+
   display: grid;
-  grid-template-columns: repeat(4, 23%);
-  /* grid-template-rows: repeat(auto, 20vw); */
-  column-gap: 3vw;
-  row-gap: 2vw;
+  grid-template-columns: repeat(4, 23.2%);
+  column-gap: 3%;
+  row-gap: 2%;
 }
 
 .food-menu-box {
-  margin: 2%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-top: 1vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  border-radius: 0.5vw;
-  height: 30vw;
-  /* margin-top: 1vw;
-  margin-bottom: 1vw;
-  border: thin solid black;
-  */
-}
-
-.img-food-menu {
-  width: 98%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 98%;
-  height: 60%;
-  border-radius: inherit;
-  /* border: thin solid black;
-  */
+  height: 25vw;
+  border-radius: 0.5vw;
 }
 
-.img-order {
-  height: 100%;
-  width: 80%;
+.food-menu-box > * {
+  font-size: 1.5vw;
   border-radius: inherit;
+  width: 95%;
 }
 
-.Desc-food-name {
-  width: 100%;
-  height: 25%;
+.img-food-menu {
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.Desc-food-menu {
+  height: 28%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.Desc-food-name > span {
+.Desc-food-menu > * {
   width: 100%;
-  height: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-size: 1vw;
 }
 
-.Desc-food-name > span > h3 {
+.img-order {
+  width: 100%;
+  height: 100%;
+}
+
+.food-info {
+  height: 55%;
   font-size: 1.5vw;
   display: flex;
   flex-direction: column;
@@ -76,38 +64,29 @@
   justify-content: center;
 }
 
-.Desc-food-name > span > span {
-  font-size: 1.3vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .para-formating {
-  width: 100%;
-  height: 40%;
+  height: 45%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border-radius: inherit;
 }
 
-.para-formating > button {
-  background-color: blackke;
-  margin-bottom: 15px;
-  width: 70%;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  color: orange;
-  font-size: 14px;
-  border: 1px solid gray;
-  border-radius: 25px;
+.btn-order-now {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.3vw;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: inherit;
 }
 
-.para-formating > span {
-  width: 30%;
-  height: 90%;
+.price {
   font-size: 1.5vw;
 }
