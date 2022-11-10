@@ -274,3 +274,50 @@ transform: rotateY(180deg);
 transform: rotateY(180deg);
 }
 
+
+/* Slideshow */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+  
+.mySlides {
+  white-space: nowrap;
+  transition: ease-out 1s;
+}
+
+/* Caption text */
+.text {
+    color:rgb(0, 98, 255);
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.slider {
+  display: inline-block;
+  width: 100%;
+}
+
+.dots {
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px 7px 7px 7px;
+  background-color: #c4c4c4;
+}
+
+.dot.active {
+  background-color: #717171;
+}

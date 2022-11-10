@@ -1,10 +1,11 @@
 import './home.css'
+import SliderShow from './SliderShow';
 
 function Home(){
     return(
         <div>
             {/* Carousel */}
-            <div id='slider'>
+            {/* <div id='slider'>
             <figure>
                 <img src='https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt='img1'/>
                 <img src='https://images.unsplash.com/photo-1594998893017-36147cbcae05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80'alt='img2'/>
@@ -12,8 +13,10 @@ function Home(){
                 <img src='https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt='img1'/>
                 <img src='https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt='img1'/>
             </figure>
-            </div>
+            </div> */}
 
+            <SliderShow/>
+            
             {/* Food menu */}
             <div className="container">
             <h2 className="text-center">FOOD MENU</h2>
