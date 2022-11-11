@@ -8,6 +8,7 @@ import Search from './components/search/search';
 import Cart from './components/order/cart';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from './components/landing/landing';
+import Form from './components/form/form'
 
 
   function App() {
@@ -65,6 +66,7 @@ import Landing from './components/landing/landing';
         <Route path="/orders" element={<Cart cart={cart}/>} />
         <Route path="/about" element={<About />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/form" element={<Form />} />
         <Route exact path="/meal-order/src/components/order/cart.js" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange} amount={amount} />} />
       </Routes>
     </BrowserRouter>

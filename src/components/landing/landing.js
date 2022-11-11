@@ -1,10 +1,27 @@
-import React from "react";
 import './landing.css';
+import {useNavigate} from 'react-router-dom';
+import React, { useState } from "react";
+
 // import { Link } from "react-router-dom";
 const cardContainer = document.querySelector('.card-container')
 
 
 const Landing = () => {
+    const [nav,setN]=useState(false)
+    const navigate=useNavigate()
+
+    function handleClick(){
+      setN(true)
+    }
+
+    function handleClick2(){
+        navigate('/home')
+      }
+
+    if(nav === true){
+        navigate("/form")
+
+    }
     
     return ( 
         <>
@@ -13,16 +30,13 @@ const Landing = () => {
                     <div className="card p-5">
 
                     
-                        <button className="btn btn-outline-success btn-md m-2" >
-                            <a href='http://localhost:3000/about'>
+                    <button className="btn btn-outline-success btn-md m-2" onClick={handleClick} >
                                 Staff
-                            </a>
+                        
                         </button>
             
-                        <button className="btn btn-outline-success btn-md m-2" >
-                            <a href='http://localhost:3000/home'>
+                        <button className="btn btn-outline-success btn-md m-2" onClick={handleClick2} >
                                 Customer
-                            </a>
                         </button>
 
                     </div>

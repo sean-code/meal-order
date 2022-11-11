@@ -17,6 +17,8 @@ function Navbar(){
       <NavLink to="/orders">Orders<img src={MyImage}/></NavLink>
       <NavLink to="/search">Search</NavLink>
       <NavLink to="/about">About</NavLink>
+      <NavLink to="/form">form</NavLink>
+
         <button>
             <NavLink to="/login">Login</NavLink>
         </button>

@@ -46,12 +46,12 @@ const Cart = ({ cart, setCart, handleChange }) => {
               <img src={item.image} alt="" />
                 <p>{item.name}</p>
           </div>
-          <div className='btn'>
+          <div className='my_btn'>
             <button onClick={()=>handleClick(item)}>+</button>
             <button>{amount}</button>
             <button onClick={()=>handleMinus(item)}> - </button>
           </div>
-          <div className='.btn'>
+          <div className='my_btn2'>
             <span>Ksh:{item.price}</span>
               <button className='remove' onClick={()=>handleRemove(item.id)} >Remove</button>
               </div>
