@@ -63,7 +63,7 @@ import Form from './components/form/form'
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home cart={cart} setCart={setCart} setWarning={setWarning}/>} />
-        <Route path="/orders" element={<Cart cart={cart}/>} />
+        <Route path="/orders" element={<Cart cart={cart} setCart={setCart} />} />
         <Route path="/about" element={<About />} />
         <Route path="/search" element={<Search />} />
         <Route path="/form" element={<Form />} />
