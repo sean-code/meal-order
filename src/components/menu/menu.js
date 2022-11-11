@@ -15,10 +15,9 @@ function Menu() {
 
   return (
     <main className="main-menu">
-      {" "}
       {meals.map((meal) => (
         <Meal key={meal.id} meal={meal} />
-      ))}{" "}
+      ))}
     </main>
   );
 }

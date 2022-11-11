@@ -1,15 +1,21 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .main-menu {
   width: 98%;
   height: max-content;
-
   display: grid;
   grid-template-columns: repeat(4, 23.2%);
   column-gap: 3%;
   row-gap: 2%;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .food-menu-box {
   margin-top: 1vw;
+  margin-bottom: 20px;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
@@ -18,12 +24,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 25vw;
+  /* height: 25vw; */
   border-radius: 0.5vw;
 }
 
 .food-menu-box > * {
-  font-size: 1.5vw;
+  font-size: 18px;
   border-radius: inherit;
   width: 95%;
 }
@@ -34,7 +40,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
 }
 
 .Desc-food-menu {
@@ -47,21 +52,22 @@
 
 .Desc-food-menu > * {
   width: 100%;
-  font-size: 1vw;
+  font-size: 15px;
 }
 
 .img-order {
   width: 100%;
-  height: 100%;
+  margin-bottom: 20px;
 }
 
 .food-info {
   height: 55%;
-  font-size: 1.5vw;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .para-formating {
@@ -80,13 +86,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 1.3vw;
+  font-size: 15px;
   border: none;
-  background-color: black;
-  color: white;
+  background-color: #fe7f2d;
+  color: black;
   border-radius: inherit;
 }
 
 .price {
-  font-size: 1.5vw;
+  font-size: 15px;
 }
